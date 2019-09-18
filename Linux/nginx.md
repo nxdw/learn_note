@@ -478,6 +478,7 @@ Nginx（2）
 							location /i/ {
 										alias   /data/web2/;
 										}   
+							http://www.zhanghw.com/i/index.html --> http://www.zhanghw.com/data/web2/index.html
 							注：如果location后面的URI有/，则alias后面的路径也得有/
 
 							
